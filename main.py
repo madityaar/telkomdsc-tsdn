@@ -14,7 +14,7 @@ st.write('---')
 
 st.subheader('Using components.v1.html')
 st.code('''st.components.v1.html(html_data)''', language='python')
-st.components.v1.html(html_data,width=1080, height=720,)
+st.components.v1.html(html_data,width=1080, height=720,scrolling=True)
 
 
 st.title("Hoax Detector")
